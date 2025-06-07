@@ -1,0 +1,5 @@
+if(EXISTS "/Users/anastasialeonova/Desktop/github projects/UnrolledLinkedList/build/tests/unrolled-list-lib-tests[1]_tests.cmake")
+  include("/Users/anastasialeonova/Desktop/github projects/UnrolledLinkedList/build/tests/unrolled-list-lib-tests[1]_tests.cmake")
+else()
+  add_test(unrolled-list-lib-tests_NOT_BUILT unrolled-list-lib-tests_NOT_BUILT)
+endif()
